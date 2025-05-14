@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Copy_to_Clipboard</title>
+  <link rel="stylesheet" href="./output.css">
+  <style>
+    ::selection {
+      background-color: #03a9f4;
+    }
+  </style>
+</head>
+<body class="m-0 p-0 box-border bg-[#03a9f4] h-screen flex justify-center items-center">
+
+  <div class="w-[400px] bg-white p-8 rounded-[10px]">
+    <textarea 
+      placeholder="type something ...."
+      class="w-full p-4 text-base border border-gray-400 rounded-md mb-2 focus:outline-none"
+    ></textarea>
+    <button 
+      class="w-full p-4 text-base rounded-md bg-[#b3e5fc] transition-all duration-1000 focus:outline-none"
+    >
+      Copy
+    </button>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
